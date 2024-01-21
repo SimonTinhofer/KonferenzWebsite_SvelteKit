@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+
+# Add .html to any request that doesn't have a file extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.html [L]
