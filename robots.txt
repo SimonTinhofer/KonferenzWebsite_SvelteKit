@@ -1,3 +1,0 @@
-UserAgent: *
-Disallow: *.pdf
-Sitemap: https//:www.automationofwork.at/sitemap.xml
