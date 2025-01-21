@@ -1,29 +1,8 @@
-<!doctype html>
-<html lang="de">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
-		<link href="./_app/immutable/assets/0.BNlzhPBe.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/4.B1j5r7aP.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.DGhF1Ltr.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.Dqv5NtOF.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.C5-CS6fo.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.DcbkYoA6.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.CM5-tXg1.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.CsR3g1_h.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.CjvmZwX-.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.emEl2bVz.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/AnimationStore.9qRFep8z.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/4.IaQpfeH_.js"><title>Datenschutzerklärung</title><!-- HEAD_svelte-94g2zz_START --><meta name="description" content="Hier findet man die Datenschutzerklärung der Website zur Tagung 'Automatisierung der Arbeit', in der Experten zu den Risiken und Chancen des Einsatzes von Künstlicher Intelligenz auf der Arbeitswelt sprechen."><!-- HEAD_svelte-94g2zz_END -->
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <header class="svelte-9v7i8k"><span class="logoContainer svelte-9v7i8k" data-svelte-h="svelte-181itob"><img src="/_app/immutable/assets/Logo.CnDE6fTl.svg" alt="Das Logo des Anwaltes Dr. Andreas Tinhofer und der Wirtschaftsuniversität Wien" class="svelte-9v7i8k"> <a class="kanzleiLink svelte-9v7i8k" href="https://www.labourlaw.at/" , target="_blank"></a> <a class="wuLink svelte-9v7i8k" href="https://www.wu.ac.at/" target="_blank"></a></span> <button name="Burger-Menü öffnen" class="headerButton svelte-9v7i8k" data-svelte-h="svelte-1swhkw0"><svg id="burgerMenuEnter" class="burgerMenuSvg svelte-9v7i8k" viewBox="0 0 10 8"><path d="M1 1h8M1 4h 8M1 7h8" stroke-width="1.5" stroke-linecap="round"></path></svg></button> <button name="Burger-Menü öffnen" class="headerButton hide svelte-9v7i8k" data-svelte-h="svelte-1ejdhgq"><svg class="burgerMenuSvg svelte-9v7i8k" width="40" viewBox="0 0 56 53" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="65.5145" height="11.1251" rx="4" transform="matrix(0.72233 0.691549 -0.72233 0.691549 8.03589 0)" fill="#FFF"></rect><rect width="65.5145" height="11.1251" rx="4" transform="matrix(0.72233 -0.691549 0.72233 0.691549 0 45.3065)" fill="#FFF"></rect></svg></button> <div class="navBar headerContentsContainer svelte-9v7i8k" data-svelte-h="svelte-1yflj7q"><a class="hyperLink svelte-9v7i8k" href="/">Home</a> <a class="hyperLink svelte-9v7i8k" href="/programm">Programm</a> <a class="hyperLink svelte-9v7i8k" href="/people">People</a> <a class="hyperLink svelte-9v7i8k" href="/sponsoring">Sponsoring</a> <a class="hyperLink svelte-9v7i8k" href="/slides">Slides</a> </div></header> <div class="burgerNavigation unselectable-text hide"><a class="burgerRow" href="/" data-svelte-h="svelte-1jt4w4z"><span class="burgerHyperlink">Home</span></a> <a class="burgerRow" href="/programm" data-svelte-h="svelte-xcemis"><span class="burgerHyperlink">Programm</span></a> <a class="burgerRow" href="/people" data-svelte-h="svelte-10pukgs"><span class="burgerHyperlink">People</span></a> <a class="burgerRow" href="/sponsoring" data-svelte-h="svelte-j6923i"><span class="burgerHyperlink">Sponsoring</span></a> <a class="burgerRow" href="/slides" data-svelte-h="svelte-4fftcm"><span class="burgerHyperlink">Slides</span></a>  </div>  <div class="container svelte-8f5zk" data-svelte-h="svelte-10kvbvl"><h1 class="svelte-8f5zk">1. Inhalt dieser Datenschutzerklärung</h1> <p class="svelte-8f5zk">In dieser Datenschutzerklärung informieren wir Sie über die Verarbeitung personenbezogener Daten
-		(„Daten“) bei Besuch dieser Webseite (www.automationofwork.at).</p> <h1 class="svelte-8f5zk">2. Für die Datenverarbeitung verantwortliche Person (Art 4 Z 7 DSGVO)</h1> <p class="svelte-8f5zk">Für die Datenverarbeitung im Zusammenhang mit dem Besuch dieser Website ist verantwortlich:</p> <p class="indent svelte-8f5zk">Dr. Andreas Tinhofer, LL.M.<br>
-		Rechtsanwalt<br>
-		Heumarkt 7/7/93<br>
-		1030 Wien<br>
+import{s as g,n as a}from"../chunks/scheduler.C5-CS6fo.js";import{S as f,i as b,e as u,s as k,n as m,c as h,d as i,f as z,o as v,m as l,h as w,g as c}from"../chunks/index.CsR3g1_h.js";function p(o){let e,s,n,d=`<h1 class="svelte-8f5zk">1. Inhalt dieser Datenschutzerklärung</h1> <p class="svelte-8f5zk">In dieser Datenschutzerklärung informieren wir Sie über die Verarbeitung personenbezogener Daten
+		(„Daten“) bei Besuch dieser Webseite (www.automationofwork.at).</p> <h1 class="svelte-8f5zk">2. Für die Datenverarbeitung verantwortliche Person (Art 4 Z 7 DSGVO)</h1> <p class="svelte-8f5zk">Für die Datenverarbeitung im Zusammenhang mit dem Besuch dieser Website ist verantwortlich:</p> <p class="indent svelte-8f5zk">Dr. Andreas Tinhofer, LL.M.<br/>
+		Rechtsanwalt<br/>
+		Heumarkt 7/7/93<br/>
+		1030 Wien<br/>
 		tinhofer@tinhofer.legal</p> <h1 class="svelte-8f5zk">3. Datenarten, Zweck und Rechtsgrundlage der Verarbeitung</h1> <p class="svelte-8f5zk">Beim Aufrufen der Website www.automationofwork.at werden vom Webserver automatisch die folgenden
 		Informationen („Protokolldaten“) erfasst und bis zur automatisierten Löschung in den sog
 		„Logfiles“ des Webservers gespeichert:</p> <ul><li class="svelte-8f5zk">Name und URL der abgerufenen Datei (Seite)</li> <li class="svelte-8f5zk">IP-Adresse und Hostname des anfragenden Rechners</li> <li class="svelte-8f5zk">Datum und Uhrzeit des Zugriffs</li> <li class="svelte-8f5zk">Website, von der aus der Zugriff erfolgt (Referrer-URL)</li> <li class="svelte-8f5zk">Websites, die von Ihrem Rechner über unsere Website aufgerufen werden</li> <li class="svelte-8f5zk">verwendeter Browser und ggf. das Betriebssystem Ihres Rechners sowie der Name Ihres
@@ -34,11 +13,11 @@
 		Wochen nach dem Besuch der Website gelöscht. Darüber hinaus werden diese Daten nur bei einem
 		konkreten Verdacht auf eine missbräuchliche Nutzung der Website gespeichert, solange dies für
 		die rechtliche Verfolgung erforderlich ist.</p> <h1 class="svelte-8f5zk">5. Übermittlung von Daten an Dritte</h1> <h2 class="svelte-8f5zk">5.1. Web-Hosting</h2> <p class="svelte-8f5zk">Zum Betrieb dieser Website (Web-Hosting) bedienen wir uns des folgenden Dienstleisters
-		(Auftragsverarbeiter):</p> <p class="indent svelte-8f5zk">easyname GmbH<br>
-		Canettistraße 10<br>
-		1100 Wien<br>
-		T: +43 01 353 2222<br>
-		E: office@easyname.com<br>
+		(Auftragsverarbeiter):</p> <p class="indent svelte-8f5zk">easyname GmbH<br/>
+		Canettistraße 10<br/>
+		1100 Wien<br/>
+		T: +43 01 353 2222<br/>
+		E: office@easyname.com<br/>
 		W: www.easyname.at</p> <p class="svelte-8f5zk">Wir haben mit diesem Unternehmen eine Vereinbarung für Auftragsverarbeiter gemäß Art 28 DSGVO
 		abgeschlossen. Die Server unseres Dienstleisters befinden sich in Österreich.</p> <h2 class="svelte-8f5zk">5.2. Karte</h2> <p class="svelte-8f5zk">Damit Sie den Veranstaltungsort leichter finden können, verwenden wir auf der Unterseite
 		„Anmeldung“ eine Landkarte des Dienstes “OpenStreetMap”. Eine Datenübertragung an Dritte findet
@@ -69,31 +48,4 @@
 		überwiegen oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von
 		Rechtsansprüchen (Art 21 DSGVO). Sie haben die Möglichkeit, sich mit einer Beschwerde an die
 		Datenschutzbehörde, Barichgasse 40-42, 1030 Wien, dsb@dsb.gv.at, zu wenden.</p> <h1 class="svelte-8f5zk">7. Änderung dieser Datenschutzerklärung</h1> <p class="svelte-8f5zk">Diese Datenschutzerklärung hat den Stand Jänner 2024. Änderungen werden auf dieser Webseite
-		unter www.automationofwork.at rechtzeitig bekannt gegeben.</p> </div> <footer class="svelte-1prba82" data-svelte-h="svelte-1ywujeb"><div class="container svelte-1prba82"><a class="item svelte-1prba82" href="/impressum">Impressum</a></div> <div class="container svelte-1prba82"><a class="item svelte-1prba82" href="/datenschutzerklärung">Datenschutzerklärung</a></div> <div class="container svelte-1prba82"><a href="https://github.com/SimonTinhofer" class="svelte-1prba82">Webdesign by Simon Tinhofer</a></div> </footer> 
-			
-			<script>
-				{
-					__sveltekit_hq85rn = {
-						base: new URL(".", location).pathname.slice(0, -1)
-					};
-
-					const element = document.currentScript.parentElement;
-
-					const data = [null,null];
-
-					Promise.all([
-						import("./_app/immutable/entry/start.DGhF1Ltr.js"),
-						import("./_app/immutable/entry/app.CM5-tXg1.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 4],
-							data,
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+		unter www.automationofwork.at rechtzeitig bekannt gegeben.</p>`;return{c(){e=u("meta"),s=k(),n=u("div"),n.innerHTML=d,this.h()},l(t){const r=m("svelte-94g2zz",document.head);e=h(r,"META",{name:!0,content:!0}),r.forEach(i),s=z(t),n=h(t,"DIV",{class:!0,"data-svelte-h":!0}),v(n)!=="svelte-10kvbvl"&&(n.innerHTML=d),this.h()},h(){document.title="Datenschutzerklärung",l(e,"name","description"),l(e,"content","Hier findet man die Datenschutzerklärung der Website zur Tagung 'Automatisierung der Arbeit', in der Experten zu den Risiken und Chancen des Einsatzes von Künstlicher Intelligenz auf der Arbeitswelt sprechen."),l(n,"class","container svelte-8f5zk")},m(t,r){w(document.head,e),c(t,s,r),c(t,n,r)},p:a,i:a,o:a,d(t){t&&(i(s),i(n)),i(e)}}}class W extends f{constructor(e){super(),b(this,e,null,p,g,{})}}export{W as component};
