@@ -1,4 +1,4 @@
-import{s as p,n as i}from"../chunks/scheduler.C5-CS6fo.js";import{S as m,i as u,e as h,s as b,n as f,c as o,d as n,f as w,o as y,m as l,h as g,g as d}from"../chunks/index.CsR3g1_h.js";function A(v){let e,a,t,c=`<h1 class="svelte-1rb2opy">Information nach § 5 Abs 1 ECG</h1> <div class="svelte-1rb2opy">Dr. Andreas Tinhofer, LL.M. <br/>
+import{s as p,n as i}from"../chunks/BB-uEa8F.js";import{S as m,i as u,e as h,s as b,n as f,c as o,d as n,f as w,o as y,m as l,h as g,g as d}from"../chunks/BLgPjTDC.js";function A(v){let e,a,t,c=`<h1 class="svelte-1rb2opy">Information nach § 5 Abs 1 ECG</h1> <div class="svelte-1rb2opy">Dr. Andreas Tinhofer, LL.M. <br/>
 		Rechtsanwalt <br/>
 		Heumarkt 7/7/93 <br/>
 		1030 Wien
