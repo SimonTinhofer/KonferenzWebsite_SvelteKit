@@ -1,7 +1,7 @@
 <div class="info">
 	<div class="infoContainer">
 		<div class="rightInfo">
-			09.03.2026 | 09:00 - 17:00 Uhr<br />
+			9. März 2026 | 09:00 - 17:00 Uhr<br />
 			Campus WU | Gebäude LC, Festsaal 2<br />
 			T: 01/313 36 – 4637<br />
 			E: arbeitsrecht.sozialrecht@wu.ac.at

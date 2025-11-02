@@ -7,8 +7,8 @@
 	<div class="heroLayer">
 		<div class="heroContainer">
 			<h1>Automatisierung der Arbeit</h1>
-			<h3>3. Fachtagung am 9.3.2026</h3>
-			<h2>Übernehmen bald die <br/> AI-Agents?</h2>
+			<h3>3. Fachtagung am 9. März 2026</h3>
+			<h2>Übernehmen bald die <br/> AI Agents?</h2>
 			<img src={kiIcon} alt="" class="heroIcon" />
 		</div>
 	</div>
@@ -47,7 +47,7 @@
 		margin: 0;
 
 		font-weight: 400;
-		font-size: clamp(1.5rem, 2.75vw, 20rem); /* 0.5px, 5vw, 3.25rem */
+		font-size: clamp(1.25rem, 2.25vw, 17.25rem); /* 0.5px, 5vw, 3.25rem */
 		word-wrap: break-word;
 
 		max-width: 66%;
@@ -57,7 +57,7 @@
 		padding: 0;
 		margin: 0;
 		font-weight: 500;
-		font-size: clamp(1.75rem, 3.5vw, 25rem); /* 0.5px, 5vw, 3.25rem */
+		font-size: clamp(1.5rem, 2.75vw, 20rem); /* 0.5px, 5vw, 3.25rem */
 		word-wrap: break-word;
 		max-width: 80%;
 	}

@@ -109,7 +109,7 @@
 
 	<div class="navBar headerContentsContainer" bind:this={navBar}>
 		<a class="hyperLink" href="/">Home</a>
-		<a class="hyperLink" href="/programme">Programme</a>
+		<a class="hyperLink" href="/agenda">Agenda</a>
 		<a class="inactiveLink">People</a>
 		<a class="inactiveLink">Sponsoring</a>
 		<a class="inactiveLink">Slides</a>
@@ -119,8 +119,8 @@
 	<a class="burgerRow" href="/" on:click={toggleBurgerBool}
 		><span class="burgerHyperlink">Home</span></a
 	>
-	<a class="burgerRow" href="/programme" on:click={toggleBurgerBool}
-		><span class="burgerHyperlink">Programme</span></a
+	<a class="burgerRow" href="/agenda" on:click={toggleBurgerBool}
+		><span class="burgerHyperlink">Agenda</span></a
 	>
 	<a class="inactiveBurgerRow"
 		><span class="inactiveBurgerHyperlink">People</span></a

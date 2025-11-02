@@ -2,12 +2,10 @@
 	<div class="introContainer">
 		<div class="textContainer">
 			<div class="heading introHeading">
-				Generative KI wird die Arbeitswelt grundlegend verändern
+								Von ChatGPT zu AI Agents: Was kommt auf Betriebe zu?
 			</div>
 			<div class="content introContent">
-				Mit ChatGPT & Co können Menschen und Maschinen binnen weniger Sekunden neue Texte, Bilder,
-				Musik oder Code erzeugen. Wie sollen Unternehmen und Arbeitende darauf reagieren? Welche
-				rechtlichen Rahmenbedingungen gibt es bereits und welche Regularien kommen noch auf uns zu?
+				Während generative KI bereits im Arbeitsalltag angekommen ist, steht der nächste Schritt in der Automatisierung der Arbeit unmittelbar bevor. KI-Agenten können Beschäftigte nicht nur unterstützen, sondern immer komplexere Aufgaben eigenständig ausführen. Expert:innen aus Recht, Technik und Praxis diskutieren konkrete Anwendungsszenarien und rechtliche Anforderungen.
 			</div>
 		</div>
 		<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
@@ -15,14 +13,14 @@
 			<circle cx="50" cy="50" r="50" stroke-width="2"/>
 
 			<!-- Text in three lines -->
-			<text x="50" y="35" text-anchor="middle" font-size="9" dominant-baseline="middle">
-				Ab 2.2.2025
+			<text x="50" y="35" text-anchor="middle" font-size="8" dominant-baseline="middle">
+				KI-Agent der, -en:
 			</text>
-			<text x="50" y="50" text-anchor="middle" font-size="9" dominant-baseline="middle">
-				ist KI-Kompetenz
+			<text x="50" y="50" text-anchor="middle" font-size="8" dominant-baseline="middle">
+				arbeitet autonom
 			</text>
-			<text x="50" y="65" text-anchor="middle" font-size="9" dominant-baseline="middle">
-				verpflichtend!
+			<text x="50" y="65" text-anchor="middle" font-size="8" dominant-baseline="middle">
+				24/7, ohne Pause
 			</text>
 		</svg>
 	</div>
