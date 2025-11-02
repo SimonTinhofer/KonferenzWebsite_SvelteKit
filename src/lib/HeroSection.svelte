@@ -8,7 +8,7 @@
 		<div class="heroContainer">
 			<h1>Automatisierung der Arbeit</h1>
 			<h3>3. Fachtagung am 9. März 2026</h3>
-			<h2>Übernehmen bald die <br/> AI Agents?</h2>
+			<h2>Übernehmen bald die AI Agents?</h2>
 			<img src={kiIcon} alt="" class="heroIcon" />
 		</div>
 	</div>
