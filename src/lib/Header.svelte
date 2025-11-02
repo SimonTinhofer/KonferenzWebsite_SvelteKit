@@ -5,7 +5,6 @@
 	import { onMount } from 'svelte';
 	import logoPng from '$lib/images/Logo.svg';
 	import gsap from 'gsap';
-	import { navbarAnimation, navbarSetup } from './AnimationStore';
 	export var isBurgerActivated = false;
 	/**@type {HTMLDivElement}*/
 	let navBar;
@@ -56,21 +55,9 @@
 			closeButton.classList.add('hide');
 		}
 	}
-
-	let header;
-
-	function setupNavbar() {
-		gsap.set(header, { opacity: 0 });
-	}
-	function animateNavbar() {
-		gsap.to(header, { opacity: 1, duration: 1, ease: 'power2.in' });
-	}
-
-	navbarAnimation.set(animateNavbar);
-	navbarSetup.set(setupNavbar);
 </script>
 
-<header bind:this={header}>
+<header>
 	<span class="logoContainer">
 		<img
 			src={logoPng}
@@ -123,10 +110,9 @@
 	<div class="navBar headerContentsContainer" bind:this={navBar}>
 		<a class="hyperLink" href="/">Home</a>
 		<a class="hyperLink" href="/programme">Programme</a>
-		<a class="hyperLink" href="/people">People</a>
-		<a class="hyperLink" href="/sponsoring">Sponsoring</a>
-		<a class="hyperLink" href="/slides">Slides</a>
-		<a class="hyperLink" href="/blog">Blog</a>
+		<a class="inactiveLink">People</a>
+		<a class="inactiveLink">Sponsoring</a>
+		<a class="inactiveLink">Slides</a>
 	</div>
 </header>
 <div class="burgerNavigation unselectable-text hide" bind:this={burgerMenu}>
@@ -136,17 +122,14 @@
 	<a class="burgerRow" href="/programme" on:click={toggleBurgerBool}
 		><span class="burgerHyperlink">Programme</span></a
 	>
-	<a class="burgerRow" href="/people" on:click={toggleBurgerBool}
-		><span class="burgerHyperlink">People</span></a
+	<a class="inactiveBurgerRow"
+		><span class="inactiveBurgerHyperlink">People</span></a
 	>
-	<a class="burgerRow" href="/sponsoring" on:click={toggleBurgerBool}
-		><span class="burgerHyperlink">Sponsoring</span></a
+	<a class="inactiveBurgerRow"
+		><span class="inactiveBurgerHyperlink">Sponsoring</span></a
 	>
-	<a class="burgerRow" href="/slides" on:click={toggleBurgerBool}
-		><span class="burgerHyperlink">Slides</span></a
-	>
-	<a class="burgerRow" href="/blog" on:click={toggleBurgerBool}
-		><span class="burgerHyperlink">Blog</span></a
+	<a class="inactiveBurgerRow"
+		><span class="inactiveBurgerHyperlink">Slides</span></a
 	>
 </div>
 
@@ -180,6 +163,14 @@
 		padding-top: 0.0625rem; /* 1px / 16px */
 		padding-bottom: 0.0625rem; /* 1px / 16px */
 		margin-left: auto;
+	}
+	.inactiveLink {
+		color: var(--white);
+		font-size: clamp(1rem, 1.7vw, 1.5rem); /* 24px / 16px */
+		font-weight: 400;
+		text-decoration: none;
+		word-wrap: break-word;
+		opacity: 0.2;
 	}
 	.hyperLink {
 		color: var(--white);

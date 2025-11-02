@@ -12,7 +12,7 @@
 		</div>
 		<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
 			<!-- Circle -->
-			<circle cx="50" cy="50" r="50" stroke-width="2" fill="#62b5c0" />
+			<circle cx="50" cy="50" r="50" stroke-width="2"/>
 
 			<!-- Text in three lines -->
 			<text x="50" y="35" text-anchor="middle" font-size="9" dominant-baseline="middle">
@@ -29,6 +29,9 @@
 </div>
 
 <style>
+	circle{
+		fill: var(--cyan);
+	}
 	.heading {
 		font-size: var(--fs-h);
 		font-weight: 500;

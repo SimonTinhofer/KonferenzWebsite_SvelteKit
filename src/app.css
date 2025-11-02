@@ -1,6 +1,6 @@
 :root {
-	--cyan: #62b5c0;
-	--cyan-dark: #49aab6;
+	--cyan: hsl(187, 43%, 57%);
+	--cyan-dark: hsl(187, 43%, 45%);
 	--cyan-light: hsl(187, 43%, 65%);
 
 	--white: #fff;
@@ -76,14 +76,29 @@ body {
 	display: flex;
 	text-decoration: none;
 }
+
+.inactiveBurgerRow{
+	display: flex;
+	text-decoration: none;
+}
+
 .burgerHyperlink {
 	margin: 2rem;
-
 	color: var(--Color2);
 	font-size: 1.5rem; /* 24px / 16px */
 	font-weight: 400;
 	text-decoration: none;
 }
+
+.inactiveBurgerHyperlink{
+	margin: 2rem;
+	color: var(--Color2);
+	font-size: 1.5rem; /* 24px / 16px */
+	font-weight: 400;
+	text-decoration: none;
+	opacity: 0.2;
+}
+
 /* :Hover */
 .burgerRow:hover {
 	background-color: white;
