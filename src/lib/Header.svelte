@@ -3,7 +3,8 @@
 
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
-	import logoPng from '$lib/images/Logo.svg';
+	import logoMobileSvg from '$lib/images/Logo.svg';
+	import logoPCSvg from '$lib/images/LogoPC.svg';
 	import gsap from 'gsap';
 	export var isBurgerActivated = false;
 	/**@type {HTMLDivElement}*/
@@ -60,8 +61,14 @@
 <header>
 	<span class="logoContainer">
 		<img
-			src={logoPng}
+			src={logoPCSvg}
 			alt="Das Logo des Anwaltes Dr. Andreas Tinhofer und der Wirtschaftsuniversität Wien"
+			id="pcLogo"
+		/>
+		<img
+			src={logoMobileSvg}
+			alt="Das Logo des Anwaltes Dr. Andreas Tinhofer und der Wirtschaftsuniversität Wien"
+			id="mobileLogo"
 		/>
 		<a class="kanzleiLink" href="https://www.labourlaw.at/" , target="_blank"> </a>
 		<a class="wuLink" href="https://www.wu.ac.at/ars/home" target="_blank"> </a>
@@ -184,7 +191,12 @@
 	.hyperLink:hover {
 		transform: translateY(-0.125rem);
 	}
-	@media (min-width: 60rem) {
+
+		#pcLogo{
+			display: none;
+		}
+
+	@media (min-width: 70rem) {
 		.navBar {
 			display: inline-flex;
 		}
@@ -192,6 +204,24 @@
 			display: none;
 		}
 	}
+
+	@media (min-width: 43rem) {
+		#mobileLogo{
+			display: none;
+		}
+		#pcLogo{
+			display: block;
+		}
+
+		.kanzleiLink {
+			width: 30% !important;
+		}
+		.wuLink {
+
+			width: 70% !important;
+		}
+	}
+
 	img {
 		height: 3rem;
 	}
@@ -202,7 +232,6 @@
 		margin: var(--midGap);
 	}
 	.logoContainer {
-		max-width: min(18rem, 65%);
 		margin: 1rem;
 		position: relative;
 	}
