@@ -143,12 +143,14 @@
 			<li>
 				<a
 					href="https://digital-strategy.ec.europa.eu/de/library/living-repository-foster-learning-and-exchange-ai-literacy"
+					target="_blank"
 					>living-repository-foster-learning-and-exchange-ai-literacy<ExternalLink /></a
 				>
 			</li>
 			<li>
-				<a href="https://digital-strategy.ec.europa.eu/en/events/third-ai-pact-webinar-ai-literacy"
-					>third-ai-pact-webinar-ai-literacy<ExternalLink /></a
+				<a
+					href="https://digital-strategy.ec.europa.eu/en/events/third-ai-pact-webinar-ai-literacy"
+					target="_blank">third-ai-pact-webinar-ai-literacy<ExternalLink /></a
 				>
 			</li>
 		</ul>

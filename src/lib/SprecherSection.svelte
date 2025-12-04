@@ -61,65 +61,17 @@
 				/>
 			</picture>
 		</div>
-		<div class="sprecherContainer" id="Djeffal">
-			<div class="textContainer">
-				<h1>Prof. Dr. Christian Djeffal</h1>
-				<p>
-					ist Professor für Recht, Wissenschaft und Technologie an der TUM School of Social Sciences
-					and Technology der Technischen Universität München. Er beschäftigt sich seit 2012 mit dem
-					Verhältnis von Recht und künstlicher Intelligenz sowie weiteren digitalen Technologien.
-					Als Vorstandsmitglied des Nationalen E-Government Kompetenzzentrums (NEGZ) erforscht er
-					die Digitalisierung von Recht und Rechtswissenschaft. Seine Forschungsschwerpunkte liegen
-					auf der rechtlichen Gestaltung des technologischen Wandels und der Entwicklung
-					integrativer Ansätze für Recht und Digitalisierung.
-				</p>
-			</div>
-			<picture>
-				<source srcset={DjeffalAvif} type="image/avif" />
-				<source srcset={DjeffalWebp} type="image/webp" />
-				<img
-					src={DjeffalJpg}
-					alt="Portrait von Prof. Dr. Christian Djeffal"
-					loading="lazy"
-					decoding="async"
-				/>
-			</picture>
-		</div>
-		<div class="sprecherContainer" id="Dorner">
-			<div class="textContainer">
-				<h1>Univ.-Prof. Dr. Verena Dorner</h1>
-				<p>
-					ist Vorstand des Institute for Digital Ecosystems an der WU Wien. Sie leitet dort den
-					Master Digital Economy und den WU Professional MBA Digital Transformation & Data Science.
-					Nach ihrer Promotion an der Universität Passau leitete sie am Karlsruhe Institute for
-					Technology die Forschungsgruppe Electronic Markets and User Behavior sowie das
-					Experimentallabor KD2Lab, eines der größten ökonomischen Labore in Europa. Sie forscht zu
-					den Wechselwirkungen zwischen digitalen Ökosystemen, dem Design von Algorithmen und AI und
-					Nutzerverhalten.
-				</p>
-			</div>
-			<picture>
-				<source srcset={DornerAvif} type="image/avif" />
-				<source srcset={DornerWebp} type="image/webp" />
-				<img
-					src={DornerJpg}
-					alt="Portrait von Univ.-Prof. Dr. Verena Dorner"
-					loading="lazy"
-					decoding="async"
-				/>
-			</picture>
-		</div>
+
 		<div class="sprecherContainer" id="Fuchs">
 			<div class="textContainer">
-				<h1>Mag. (FH) Monika Fuchs MSc.</h1>
+				<h1>Mag.a Monika Fuchs MSc.</h1>
 				<p>
-					ist Unternehmensberaterin mit Fokus HR Management, Leadership & Künstliche Intelligenz und
-					Head of Group HR der Merkur Versicherung AG. Mit über 18 Jahren Erfahrung in
-					internationalen HR-Funktionen hat sie sich auf die Entwicklung innovativer HR-Strategien
-					spezialisiert. Sie unterrichtet regelmäßig auf Universitäten und hält Vorträge und
-					Seminare zu Themen wie Human Resource Management, KI in HR und Leadership. Ihr Fokus liegt
-					dabei auf den praktischen und ethischen Herausforderungen der Digitalisierung im
-					Personalmanagement.
+					ist HR-Managerin, Beraterin und Spezialistin für Künstliche Intelligenz im
+					Personalmanagement. Sie verfügt über langjährige Erfahrung in internationalen
+					HR-Leitungsfunktionen und leitet derzeit auch den HR-Bereich eines österreichischen
+					Versicherungsunternehmens. Mit ihrem Beratungsunternehmen unterstützt sie Organisationen
+					in den Bereichen HR-Management, Leadership und digitale Transformation mit starkem Fokus
+					auf AI.
 				</p>
 			</div>
 			<picture>
@@ -133,63 +85,87 @@
 				/>
 			</picture>
 		</div>
-		<div class="sprecherContainer" id="Gorzala">
+
+		<div class="sprecherContainer" id="Giesswein">
+			<picture>
+				<source srcset={TinhoferAvif} type="image/avif" />
+				<source srcset={TinhoferWebp} type="image/webp" />
+				<img
+					src={TinhoferJpg}
+					alt="Portrait von Dr. Andreas Tinhofer, LL.M."
+					loading="lazy"
+					decoding="async"
+				/>
+			</picture>
 			<div class="textContainer">
-				<h1>Dr. Jeannette Gorzala, BSc</h1>
+				<h1>Martin Giesswein</h1>
 				<p>
-					ist eine führende Expertin für KI-Governance, KI-Regulierung und KI-Strategie. Als Gründerin von ACT AI NOW  (www.actainow.com) berät sie Organisationen zu allen Fragen des Technologie- und Wirtschaftsrechts, insbesondere bei der Umsetzung des EU AI Acts. Sie ist eine gefragte Speakerin auf internationalen Konferenzen und eine zentrale Stimme in der europäischen KI-Debatte. Darüber hinaus dient sie dem österreichischen KI-Ökosystem als stellvertretende Vorsitzende des KI-Beirats der Bundesregierung, im KI-Expertengremium der Stadt Wien sowie bei AI Austria.
+					lehrt Digitalökonomie an der WU Executive Academy und ist AI Ethics Advisor des
+					europäischen Draigon Projekts. Der Preisträger des Awards "Digitaler Humanismus in der
+					Praxis" verfolgt als Autor, Speaker und Sparringspartner seine Berufung,
+					Digitalkompetenzen bei Führungskräften zu stärken. Zuvor war er CEO und General Manager in
+					der IT-Branche. www.martingiesswein.com
+				</p>
+			</div>
+		</div>
+
+		<div class="sprecherContainer" id="Gleißner">
+			<div class="textContainer">
+				<h1>Mag. Dr. Rolf Gleißner</h1>
+				<p>
+					leitet die Abteilung Sozial- und Gesundheitspolitik in der Wirtschaftskammer Österreich.
+					Der Jurist und Politikwissenschafter wirkt seit vielen Jahren bei den wesentlichen
+					Gesetzesänderungen in den Bereichen Arbeitsrecht, Sozialpolitik, Arbeitsmarkt mit und
+					publiziert dazu. Seit 2007 Laienrichter am Obersten Gerichtshof und Mitglied in den
+					Verwaltungsräten des Arbeitsmarktservice (AMS) sowie der Sozialversicherungsanstalt der
+					Selbständigen (SVS).
 				</p>
 			</div>
 			<picture>
-				<source srcset={GorzalaAvif} type="image/avif" />
-				<source srcset={GorzalaWebp} type="image/webp" />
+				<source srcset={KietaiblAvif} type="image/avif" />
+				<source srcset={KietaiblWebp} type="image/webp" />
 				<img
-					src={GorzalaJpg}
-					alt="Portrait von Jeannette Gorzala"
+					src={KietaiblJpg}
+					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
 					loading="lazy"
 					decoding="async"
 				/>
 			</picture>
 		</div>
-		<div class="sprecherContainer" id="Homar">
+
+		<div class="sprecherContainer" id="Kietaibl">
 			<div class="textContainer">
-				<h1>Univ.-Prof. Dr. Philipp Homar</h1>
+				<h1>Prof. Dr. Philipp Hacker, LL.M. (Yale)</h1>
 				<p>
-					ist Professor für Immaterialgüterrecht an der JKU Linz und an der WU Wien. Seine
-					Forschungsinteressen liegen im Immaterialgüterrecht und in angrenzenden Rechtsbereichen.
-					Aktuelle Schwerpunkte sind die (immaterialgüter-)rechtlichen Herausforderungen von
-					Künstlicher Intelligenz und Online-Plattformen sowie der Schutz von Geschäftsgeheimnissen.
-					Er ist regelmäßiger Vortragender auf internationalen und nationalen Konferenzen.
+					ist Inhaber des Lehrstuhls für Recht und Ethik der digitalen Gesellschaft an der European
+					New School of Digital Studies (ENS) der Europa-Universität Viadrina Frankfurt (Oder).
+					Derzeit konzentriert sich seine Forschung auf die Regulierung digitaler Technologien,
+					insbesondere im Bereich der künstlichen Intelligenz. Philipp arbeitet häufig mit
+					Informatikern und Mathematikern zusammen, insbesondere zu Fragen der erklärbaren KI, der
+					algorithmischen Fairness und den Klimafolgen von KI. Für seine Arbeit erhielt er mehrere
+					akademische Preise, darunter 2020 den Wissenschaftspreis der Deutschen Stiftung für Recht
+					und Informatik. Er berät regelmäßig nationale und EU-Gesetzgeber, Regulierungsbehörden und
+					die Industrie. Philipp ist Mitbegründer und Co-Leiter des International Expert Consortium
+					on the Regulation, Economics and Computer Science of AI (RECSAI). Kürzlich wurde er zum
+					General Editor der neuen, 11-bändigen Reihe AI and Society ernannt, die von 2025-2027 von
+					Oxford University Press veröffentlicht wird. Er ist Mitglied der Task Force KI-Governance
+					und des Expertenbeirats AI and Sustainability, beides jeweils bei der deutschen
+					Bundesregierung, und hatte 2024/25 den Co-Vorsitz der Arbeitsgruppe „KI-Haftung“ für das
+					Europäische Parlament inne.
 				</p>
 			</div>
 			<picture>
-				<source srcset={HomerAvif} type="image/avif" />
-				<source srcset={HomerWebp} type="image/webp" />
-				<img src={HomerJpg} alt="Portrait von Philipp Homar" loading="lazy" decoding="async" />
-			</picture>
-		</div>
-		<div class="sprecherContainer" id="Katzlberger">
-			<div class="textContainer">
-				<h1>Michael Katzlberger</h1>
-				<p>
-					Gründer der KI-Kreativagentur 3LIOT.ai, beschäftigt sich seit 2016 intensiv mit den
-					Möglichkeiten der Künstlichen Intelligenz in der Kreativwirtschaft und vermittelt sein
-					Wissen in Workshops, Lehrveranstaltungen und Vorträgen im In- und Ausland. Sein
-					Schwerpunkt liegt hierbei darauf, das Thema KI zu entmystifizieren, um es EPUs, KMUs und
-					der breiteren Öffentlichkeit besser zugänglich zu machen.
-				</p>
-			</div>
-			<picture>
-				<source srcset={KatzlbergerAvif} type="image/avif" />
-				<source srcset={KatzlbergerWebp} type="image/webp" />
+				<source srcset={KietaiblAvif} type="image/avif" />
+				<source srcset={KietaiblWebp} type="image/webp" />
 				<img
-					src={KatzlbergerJpg}
-					alt="Portrait von Michael Katzlberger"
+					src={KietaiblJpg}
+					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
 					loading="lazy"
 					decoding="async"
 				/>
 			</picture>
 		</div>
+
 		<div class="sprecherContainer" id="Kietaibl">
 			<div class="textContainer">
 				<h1>Univ.-Prof. Dr. Christoph Kietaibl</h1>
@@ -212,51 +188,7 @@
 				/>
 			</picture>
 		</div>
-		<div class="sprecherContainer" id="Köszegi">
-			<div class="textContainer">
-				<h1>Univ.-Prof. Dr. Sabine T. Köszegi</h1>
-				<p>
-					ist Professorin für Arbeitswissenschaft und Organisation am Institut für
-					Managementwissenschaften der TU Wien. Ihre Forschung liegt an der Schnittstelle von
-					Technologie, Arbeit und Organisation. Seit 2017 ist sie in der wissenschaftlichen
-					Politikberatung engagiert, u.a. als Mitglied der High-Level Expert Group on Artificial
-					Intelligence der Europäischen Kommission. Aktuell ist sie Vorsitzende des Beirats für
-					Ethik der Künstlichen Intelligenz der österr. UNESCO Kommission und Mitglied des Beirats
-					für Künstliche Intelligenz der Österreichischen Bundesregierung sowie des AI Advisory
-					Pools der Stadt Wien.
-				</p>
-			</div>
-			<picture>
-				<source srcset={KöszegiAvif} type="image/avif" />
-				<source srcset={KöszegiWebp} type="image/webp" />
-				<img
-					src={KöszegiJpg}
-					alt="Portrait von Sabine T. Köszegi"
-					loading="lazy"
-					decoding="async"
-				/>
-			</picture>
-		</div>
-		<div class="sprecherContainer" id="Schmidl">
-			<div class="textContainer">
-				<h1>Dr. Matthias Schmidl</h1>
-				<p>
-					ist seit Jänner 2024 Leiter der österreichischen Datenschutzbehörde. Er ist Autor
-					zahlreicher Veröffentlichungen zum Datenschutz und verwandten Rechtsgebieten und hält
-					hierzu auch regelmäßig Vorträge.
-				</p>
-			</div>
-			<picture>
-				<source srcset={SchmidlAvif} type="image/avif" />
-				<source srcset={SchmidlWebp} type="image/webp" />
-				<img
-					src={SchmidlJpg}
-					alt="Portrait von Dr. Matthias Schmidl"
-					loading="lazy"
-					decoding="async"
-				/>
-			</picture>
-		</div>
+
 		<div class="sprecherContainer" id="Tinhofer">
 			<picture>
 				<source srcset={TinhoferAvif} type="image/avif" />
