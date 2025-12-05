@@ -261,8 +261,13 @@
 
 		<div class="sprecherContainer" id="Waas">
 			<div class="textContainer">
-				<h1>B. Waas</h1>
-				<p>Text fehlt noch!</p>
+				<h1>Univ.-Prof. Dr. Bernd Waas</h1>
+				<p>
+					ist Inhaber des Lehrstuhls für Arbeitsrecht und Bürgerliches Recht an der Goethe
+					Universität in Frankfurt. Er ist Koordinator des arbeitsrechtlichen Expertennetzwerk der
+					Europäischen Kommission und Mitglied des ILO-Sachverständigenausschusses. Zu Fragen der
+					Digitalisierung der Arbeitswelt hat er zuletzt zwei Monographien vorgelegt.
+				</p>
 			</div>
 			<picture>
 				<source srcset={KietaiblAvif} type="image/avif" />
