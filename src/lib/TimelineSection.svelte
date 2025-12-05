@@ -9,45 +9,44 @@
 		<div class="eventContainer">
 			<div class="eventTime">09:00</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
 				<div class="eventHeading">Begrüßung und Eröffnung</div>
 				<div class="eventSubtext">
-					Susanne Auer-Mayer und Andreas Tinhofer
+					<a href="/people#Auer-Mayer">Susanne Auer-Mayer<InternalLink /></a> und
+					<a href="/people#Tinhofer">Andreas Tinhofer<InternalLink /></a>
 				</div>
 			</div>
 		</div>
 		<div class="eventContainer">
 			<div class="eventTime">09:15</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
-				<div class="eventHeading">
-					KI und Arbeit: Chancen und Herausforderungen
-				</div>
-				<div class="eventSubtext">
-					Bernd Waas
-				</div>
+				<div class="eventHeading">KI und Arbeit: Chancen und Herausforderungen</div>
+				<div class="eventSubtext"><a href="/people#Waas">Bernd Waas<InternalLink /></a></div>
 			</div>
 		</div>
 		<div class="eventContainer">
 			<div class="eventTime">09:45</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
-				<div class="eventHeading">Artificial General Intelligence (AGI): Realität oder Science Fiction?</div>
+				<div class="eventHeading">
+					Artificial General Intelligence (AGI): Realität oder Science Fiction?
+				</div>
 				<div class="eventSubtext">
-					Günter Klambauer
+					<a href="/people#Klambauer">Günter Klambauer<InternalLink /></a>
 				</div>
 			</div>
 		</div>
 		<div class="eventContainer">
 			<div class="eventTime">10:15</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
 				<!-- <div class="eventHeading"></div> -->
@@ -57,29 +56,29 @@
 		<div class="eventContainer">
 			<div class="eventTime">11:00</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
 				<div class="eventHeading">Ist die DSGVO fit für das KI-Zeitalter</div>
-				<div class="eventSubtext">Christiane Wendehorst</div>
+				<div class="eventSubtext">
+					<a href="/people#Wendehorst">Christiane Wendehorst<InternalLink /></a>
+				</div>
 			</div>
 		</div>
 		<div class="eventContainer">
 			<div class="eventTime">11:30</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
-				<div class="eventHeading"> Aktuelle Fragen zur KI-VO für die betriebliche Praxis</div>
-				<div class="eventSubtext">
-					Philipp Hacker
-				</div>
+				<div class="eventHeading">Aktuelle Fragen zur KI-VO für die betriebliche Praxis</div>
+				<div class="eventSubtext"><a href="/people#Hacker">Philipp Hacker<InternalLink /></a></div>
 			</div>
 		</div>
 		<div class="eventContainer">
 			<div class="eventTime">12:00</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
 				<!-- <div class="eventHeading"></div> -->
@@ -89,35 +88,31 @@
 		<div class="eventContainer">
 			<div class="eventTime">13:30</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
-				<div class="eventHeading">
-					Das Recht auf Erklärung nach DSGVO und KI-VO
-				</div>
+				<div class="eventHeading">Das Recht auf Erklärung nach DSGVO und KI-VO</div>
 				<div class="eventSubtext">
-					Madeleine Müller
+					<a href="/people#Müller">Madeleine Müller<InternalLink /></a>
 				</div>
 			</div>
 		</div>
 		<div class="eventContainer">
 			<div class="eventTime">14:00</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
-				<div class="eventHeading">
-					Arbeitsrechtliche Aspekte der Nutzung von AI Agents & Co
-				</div>
+				<div class="eventHeading">Arbeitsrechtliche Aspekte der Nutzung von AI Agents & Co</div>
 				<div class="eventSubtext">
-					Andreas Tinhofer
+					<a href="/people#Tinhofer">Andreas Tinhofer<InternalLink /></a>
 				</div>
 			</div>
 		</div>
 		<div class="eventContainer">
 			<div class="eventTime">14:30</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
 				<!-- <div class="eventHeading"></div> -->
@@ -127,22 +122,27 @@
 		<div class="eventContainer">
 			<div class="eventTime">15:15</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
-				<div class="eventHeading">Praxisbeispiele zu den Einsatzmöglichkeiten von KI im Betrieb</div>
+				<div class="eventHeading">
+					Praxisbeispiele zu den Einsatzmöglichkeiten von KI im Betrieb
+				</div>
 				<div class="eventSubtext">
-					Monika Fuchs und Martin Giesswein
+					<a href="/people#Fuchs">Monika Fuchs<InternalLink /></a> und
+					<a href="/people#Giesswein">Martin Giesswein<InternalLink /></a>
 				</div>
 			</div>
 		</div>
 		<div class="eventContainer">
 			<div class="eventTime">16:00</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
-				<div class="eventHeading">Podiumsdiskussion: Chancen und Herausforderungen des KI-Einsatzes in der Praxis</div>
+				<div class="eventHeading">
+					Podiumsdiskussion: Chancen und Herausforderungen des KI-Einsatzes in der Praxis
+				</div>
 				<div class="eventSubtext">
 					Tünde Fülöp, Rolf Gleissner, Sandra Konstatzky und Klaus M. Steinmaurer
 				</div>
@@ -151,12 +151,12 @@
 		<div class="eventContainer">
 			<div class="eventTime">16:30</div>
 			<svg class="eventDotSvg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5"  />
+				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
 				<div class="eventHeading">Zusammenfassung und Schlusswort</div>
 				<div class="eventSubtext">
-					Christoph Kietaibl
+					<a href="/people#Kietaibl">Christoph Kietaibl<InternalLink /></a>
 				</div>
 			</div>
 		</div>
@@ -164,7 +164,7 @@
 </section>
 
 <style>
-	ellipse{
+	ellipse {
 		fill: var(--cyan);
 	}
 	.timelineSection {

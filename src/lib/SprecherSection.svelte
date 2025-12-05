@@ -133,7 +133,7 @@
 			</picture>
 		</div>
 
-		<div class="sprecherContainer" id="Kietaibl">
+		<div class="sprecherContainer" id="Hacker">
 			<div class="textContainer">
 				<h1>Prof. Dr. Philipp Hacker, LL.M. (Yale)</h1>
 				<p>
@@ -189,6 +189,54 @@
 			</picture>
 		</div>
 
+		<div class="sprecherContainer" id="Klambauer">
+			<div class="textContainer">
+				<h1>Günter Klambauer</h1>
+				<p>
+					ist Professor für "AI in Life Sciences" am LIT AI Lab und am Institut für Machine Learning
+					an der Johannes Kepler Universität Linz. Er war maßgeblich an der Einführung des Studiums
+					"Artificial Intelligence" an der JKU beteiligt, hält darin die zentralen Vorlesungen "Deep
+					Learning and Neural Networks" und leitet den "Artificial Intelligence in Life Sciences"
+					Studienzweig.
+				</p>
+			</div>
+			<picture>
+				<source srcset={KietaiblAvif} type="image/avif" />
+				<source srcset={KietaiblWebp} type="image/webp" />
+				<img
+					src={KietaiblJpg}
+					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					loading="lazy"
+					decoding="async"
+				/>
+			</picture>
+		</div>
+
+		<div class="sprecherContainer" id="Müller">
+			<div class="textContainer">
+				<h1>Dr. Madeleine Müller, BA, MU</h1>
+				<p>
+					ist Senior Researcher und Senior Consultant am Research Institute – Digital Human Rights
+					Center. Sie hat Rechtswissenschaften und Philosophie an der Universität Wien und an der
+					Université Paris 1 Panthéon-Sorbonne studiert sowie einen Master in Politischer
+					Philosophie an der Universitat Pompeu Fabra Barcelona abgeschlossen. Am Research Institute
+					forscht, berät und lehrt sie an der Schnittstelle zwischen Recht und Geisteswissenschaften
+					zu digitalen Menschenrechten mit besonderem Fokus auf Datenschutz, Künstliche Intelligenz,
+					automatisierte Entscheidungsfindungen, Plattformregulierung und Betroffenenrechte.
+				</p>
+			</div>
+			<picture>
+				<source srcset={KietaiblAvif} type="image/avif" />
+				<source srcset={KietaiblWebp} type="image/webp" />
+				<img
+					src={KietaiblJpg}
+					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					loading="lazy"
+					decoding="async"
+				/>
+			</picture>
+		</div>
+
 		<div class="sprecherContainer" id="Tinhofer">
 			<picture>
 				<source srcset={TinhoferAvif} type="image/avif" />
@@ -209,6 +257,52 @@
 					dem Einsatz von KI in der Arbeitswelt.
 				</p>
 			</div>
+		</div>
+
+		<div class="sprecherContainer" id="Waas">
+			<div class="textContainer">
+				<h1>B. Waas</h1>
+				<p>Text fehlt noch!</p>
+			</div>
+			<picture>
+				<source srcset={KietaiblAvif} type="image/avif" />
+				<source srcset={KietaiblWebp} type="image/webp" />
+				<img
+					src={KietaiblJpg}
+					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					loading="lazy"
+					decoding="async"
+				/>
+			</picture>
+		</div>
+
+		<div class="sprecherContainer" id="Wendehorst">
+			<div class="textContainer">
+				<h1>Christiane Wendehorst</h1>
+				<p>
+					ist seit 2008 Professorin für Zivilrecht an der Universität Wien und stellvertretende
+					Institutsvorständin des Instituts für Innovation und Digitalisierung im Recht. Sie ist
+					u.a. auch Gründungsmitglied, ehemalige Präsidentin (2017-2021) und seit 2021 Scientific
+					Director des European Law Institute (ELI), sowie Präsidentin der
+					philosophisch-historischen Klasse der Österreichischen Akademie der Wissenschaften (ÖAW)
+					und Vizepräsidentin des Österreichischen Juristentages (ÖJT). Wendehorst ist gewähltes
+					Mitglied u.a. der Academia Europea (AE), der International Academy for Comparative Law
+					(IACL) und des American Law Institute (ALI). Im Jahr 2024 wurde ihr die Ehrendoktorwürde
+					der Universität Bern verliehen und seit 2025 ist sie Trägerin des Österreichischen
+					Ehrenzeichens für Wissenschaft und Kunst. Gegenwärtig konzentriert sich ihre Arbeit auf
+					die rechtlichen Herausforderungen der Digitalisierung.
+				</p>
+			</div>
+			<picture>
+				<source srcset={KietaiblAvif} type="image/avif" />
+				<source srcset={KietaiblWebp} type="image/webp" />
+				<img
+					src={KietaiblJpg}
+					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					loading="lazy"
+					decoding="async"
+				/>
+			</picture>
 		</div>
 	</div>
 </div>
