@@ -2,36 +2,48 @@
 	import AuerMayerAvif from '$lib/images/people/Auer-Mayer.avif';
 	import AuerMayerWebp from '$lib/images/people/Auer-Mayer.webp';
 	import AuerMayerJpg from '$lib/images/people/Auer-Mayer.jpg';
-	import DjeffalAvif from '$lib/images/people/Djeffal.avif';
-	import DjeffalWebp from '$lib/images/people/Djeffal.webp';
-	import DjeffalJpg from '$lib/images/people/Djeffal.jpg';
-	import DornerAvif from '$lib/images/people/Dorner.avif';
-	import DornerWebp from '$lib/images/people/Dorner.webp';
-	import DornerJpg from '$lib/images/people/Dorner.jpg';
+
 	import FuchsAvif from '$lib/images/people/Fuchs.avif';
 	import FuchsWebp from '$lib/images/people/Fuchs.webp';
 	import FuchsJpg from '$lib/images/people/Fuchs.jpg';
-	import GorzalaAvif from '$lib/images/people/Gorzala.avif';
-	import GorzalaWebp from '$lib/images/people/Gorzala.webp';
-	import GorzalaJpg from '$lib/images/people/Gorzala.jpg';
-	import HomerAvif from '$lib/images/people/Homer.avif';
-	import HomerWebp from '$lib/images/people/Homer.webp';
-	import HomerJpg from '$lib/images/people/Homer.jpg';
-	import KatzlbergerAvif from '$lib/images/people/Katzlberger.avif';
-	import KatzlbergerWebp from '$lib/images/people/Katzlberger.webp';
-	import KatzlbergerJpg from '$lib/images/people/Katzlberger.jpg';
+
+	import GiessweinAvif from '$lib/images/people/Giesswein.avif';
+	import GiessweinWebp from '$lib/images/people/Giesswein.webp';
+	import GiessweinJpg from '$lib/images/people/Giesswein.jpg';
+
+	import GleißnerAvif from '$lib/images/people/Gleißner.avif';
+	import GleißnerWebp from '$lib/images/people/Gleißner.webp';
+	import GleißnerJpg from '$lib/images/people/Gleißner.jpg';
+
+	import HackerAvif from '$lib/images/people/Hacker.avif';
+	import HackerWebp from '$lib/images/people/Hacker.webp';
+	import HackerJpg from '$lib/images/people/Hacker.jpg';
+
 	import KietaiblAvif from '$lib/images/people/Kietaibl.avif';
 	import KietaiblWebp from '$lib/images/people/Kietaibl.webp';
 	import KietaiblJpg from '$lib/images/people/Kietaibl.jpg';
-	import KöszegiAvif from '$lib/images/people/Köszegi.avif';
-	import KöszegiWebp from '$lib/images/people/Köszegi.webp';
-	import KöszegiJpg from '$lib/images/people/Köszegi.jpg';
-	import SchmidlAvif from '$lib/images/people/Schmidl.avif';
-	import SchmidlWebp from '$lib/images/people/Schmidl.webp';
-	import SchmidlJpg from '$lib/images/people/Schmidl.jpg';
+
+	import KlambauerAvif from '$lib/images/people/Klambauer.avif';
+	import KlambauerWebp from '$lib/images/people/Klambauer.webp';
+	import KlambauerJpg from '$lib/images/people/Klambauer.jpg';
+
+	import MüllerAvif from '$lib/images/people/Müller.avif';
+	import MüllerWebp from '$lib/images/people/Müller.webp';
+	import MüllerJpg from '$lib/images/people/Müller.jpg';
+
 	import TinhoferAvif from '$lib/images/people/Tinhofer.avif';
 	import TinhoferWebp from '$lib/images/people/Tinhofer.webp';
 	import TinhoferJpg from '$lib/images/people/Tinhofer.jpg';
+
+	import WaasAvif from '$lib/images/people/Waas.avif';
+	import WaasWebp from '$lib/images/people/Waas.webp';
+	import WaasJpg from '$lib/images/people/Waas.jpg';
+
+	import WendehorstAvif from '$lib/images/people/Wendehorst.avif';
+	import WendehorstWebp from '$lib/images/people/Wendehorst.webp';
+	import WendehorstJpg from '$lib/images/people/Wendehorst.jpg';
+
+
 	import ExternalLink from '$lib/ExternalLink.svelte';
 	import InternalLink from './InternalLink.svelte';
 </script>
@@ -88,11 +100,11 @@
 
 		<div class="sprecherContainer" id="Giesswein">
 			<picture>
-				<source srcset={TinhoferAvif} type="image/avif" />
-				<source srcset={TinhoferWebp} type="image/webp" />
+				<source srcset={GiessweinAvif} type="image/avif" />
+				<source srcset={GiessweinWebp} type="image/webp" />
 				<img
-					src={TinhoferJpg}
-					alt="Portrait von Dr. Andreas Tinhofer, LL.M."
+					src={GiessweinJpg}
+					alt="Portrait von Martin Giesswein"
 					loading="lazy"
 					decoding="async"
 				/>
@@ -122,11 +134,11 @@
 				</p>
 			</div>
 			<picture>
-				<source srcset={KietaiblAvif} type="image/avif" />
-				<source srcset={KietaiblWebp} type="image/webp" />
+				<source srcset={GleißnerAvif} type="image/avif" />
+				<source srcset={GleißnerWebp} type="image/webp" />
 				<img
-					src={KietaiblJpg}
-					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					src={GleißnerJpg}
+					alt="Portrait von Mag. Dr. Rolf Gleißner"
 					loading="lazy"
 					decoding="async"
 				/>
@@ -155,11 +167,11 @@
 				</p>
 			</div>
 			<picture>
-				<source srcset={KietaiblAvif} type="image/avif" />
-				<source srcset={KietaiblWebp} type="image/webp" />
+				<source srcset={HackerAvif} type="image/avif" />
+				<source srcset={HackerWebp} type="image/webp" />
 				<img
-					src={KietaiblJpg}
-					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					src={HackerJpg}
+					alt="Portrait von Prof. Dr. Philipp Hacker, LL.M. (Yale)"
 					loading="lazy"
 					decoding="async"
 				/>
@@ -201,11 +213,11 @@
 				</p>
 			</div>
 			<picture>
-				<source srcset={KietaiblAvif} type="image/avif" />
-				<source srcset={KietaiblWebp} type="image/webp" />
+				<source srcset={KlambauerAvif} type="image/avif" />
+				<source srcset={KlambauerWebp} type="image/webp" />
 				<img
-					src={KietaiblJpg}
-					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					src={KlambauerJpg}
+					alt="Portrait von Günter Klambauer"
 					loading="lazy"
 					decoding="async"
 				/>
@@ -226,11 +238,11 @@
 				</p>
 			</div>
 			<picture>
-				<source srcset={KietaiblAvif} type="image/avif" />
-				<source srcset={KietaiblWebp} type="image/webp" />
+				<source srcset={MüllerAvif} type="image/avif" />
+				<source srcset={MüllerWebp} type="image/webp" />
 				<img
-					src={KietaiblJpg}
-					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					src={MüllerJpg}
+					alt="Portrait von Dr. Madeleine Müller, BA, MU"
 					loading="lazy"
 					decoding="async"
 				/>
@@ -270,11 +282,11 @@
 				</p>
 			</div>
 			<picture>
-				<source srcset={KietaiblAvif} type="image/avif" />
-				<source srcset={KietaiblWebp} type="image/webp" />
+				<source srcset={WaasAvif} type="image/avif" />
+				<source srcset={WaasWebp} type="image/webp" />
 				<img
-					src={KietaiblJpg}
-					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					src={WaasJpg}
+					alt="Portrait von Univ.-Prof. Dr. Bernd Waas"
 					loading="lazy"
 					decoding="async"
 				/>
@@ -299,11 +311,11 @@
 				</p>
 			</div>
 			<picture>
-				<source srcset={KietaiblAvif} type="image/avif" />
-				<source srcset={KietaiblWebp} type="image/webp" />
+				<source srcset={WendehorstAvif} type="image/avif" />
+				<source srcset={WendehorstWebp} type="image/webp" />
 				<img
-					src={KietaiblJpg}
-					alt="Portrait von Univ.-Prof. Dr. Christoph Kietaibl"
+					src={WendehorstJpg}
+					alt="Portrait von Christiane Wendehorst"
 					loading="lazy"
 					decoding="async"
 				/>
