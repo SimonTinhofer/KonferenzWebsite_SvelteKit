@@ -7,6 +7,7 @@
 	import WKOSvg from '$lib/images/Logo_WKO.svg';
 	import LittlerSvg from '$lib/images/Logo_Littler.svg';
 	import KrichmayerTinhoferSvg from '$lib/images/Logo_KrichmayrTinhofer.svg';
+	import EHSvg from '$lib/images/Logo_E+H.svg';
 
 	var inlineContainer;
 	function openText(/**@type {MouseEvent}*/ event) {
@@ -27,9 +28,20 @@
 
 <div class="outerContainer">
 	<div class="inlineContainer">
-		<button class="sponsorContainer" on:click={openText} id="at">
+		<!-- <button class="sponsorContainer" on:click={openText} id="at">
 			<img src={ATTYSPng} alt="Logo der Kanzlei ATTYS" />
 			<p class="hide">ATTYS berät Unternehmen als Rechtsanwaltskanzlei zu wirtschaftsrechtlichen Fragen – dies zuletzt schwerpunktmäßig im Bereich der künstlichen Intelligenz, neuer Arbeitsformen und des Geschäfts- und Geheimnisschutzes. Dabei legen wir großen Wert auf klare, zielgerichtete und wirtschaftlich orientierte Beratung.</p>
+		</button> -->
+		<button class="sponsorContainer" on:click={openText} id="ak">
+			<img src={AKWienSvg} alt="Logo der Arbeiterkammer Wien" />
+			<p class="hide">
+				Die <span>Arbeiterkammer (AK)</span> vertritt die Interessen von fast 4 Millionen arbeitenden
+				Menschen in Österreich. Wir kämpfen für ihre Rechte in der Arbeit – und dafür, dass sie gehört,
+				fair bezahlt und rechtlich abgesichert sind. Das Beste daran: Der AK muss man nicht extra beitreten
+				– durch das Arbeiterkammergesetz sind alle Arbeitnehmer:innen automatisch AK Mitglieder. Das
+				gilt auch für Lehrlinge, Arbeitslose und Menschen in Karenz – sie alle können die gesamten Leistungen
+				der AK nutzen.
+			</p>
 		</button>
 		<button class="sponsorContainer" on:click={openText} id="fa">
 			<img src={FacultasSvg} alt="Logo des Verlages Facultas" />
@@ -80,17 +92,10 @@
 				Politik ein, z.B. für Steuerentlastung, Bürokratie-Abbau, Förderungen.
 			</p>
 		</button>
-		<!-- <button class="sponsorContainer" on:click={openText} id="ak">
-			<img src={AKWienSvg} alt="Logo der Arbeiterkammer Wien" />
-			<p class="hide">
-				Die <span>Arbeiterkammer (AK)</span> vertritt die Interessen von fast 4 Millionen arbeitenden
-				Menschen in Österreich. Wir kämpfen für ihre Rechte in der Arbeit – und dafür, dass sie gehört,
-				fair bezahlt und rechtlich abgesichert sind. Das Beste daran: Der AK muss man nicht extra beitreten
-				– durch das Arbeiterkammergesetz sind alle Arbeitnehmer:innen automatisch AK Mitglieder. Das
-				gilt auch für Lehrlinge, Arbeitslose und Menschen in Karenz – sie alle können die gesamten Leistungen
-				der AK nutzen.
-			</p>
-		</button> -->
+		<button class="sponsorContainer" on:click={openText} id="eh">
+			<img src={EHSvg} alt="Logo der Kanzlei E+H" />
+			<p class="hide"></p>
+		</button>
 		<!-- <button class="sponsorContainer" on:click={openText} id="le">
 			<img src={LexisNexisSvg} alt="Logo des Unternehmens LexisNexis" />
 			<p class="hide">
@@ -108,22 +113,25 @@
 
 <style>
 	#ma {
-		order: 5;
+		order: 1;
 	}
 	#wk {
-		order: 6;
+		order: 5;
 	}
 	#kr {
 		order: 3;
 	}
 	#li {
-		order: 4;
+		order: 5;
 	}
 	#fa {
 		order: 2;
 	}
-	#at {
-		order: 1;
+	#ak {
+		order: 4;
+	}
+	#eh {
+		order: 6;
 	}
 	.hide {
 		display: none;
