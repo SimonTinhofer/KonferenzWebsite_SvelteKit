@@ -43,6 +43,8 @@
 				der AK nutzen.
 			</p>
 		</button>
+
+		<!--
 		<button class="sponsorContainer" on:click={openText} id="fa">
 			<img src={FacultasSvg} alt="Logo des Verlages Facultas" />
 			<p class="hide">
@@ -55,6 +57,7 @@
 				wissenschaftsnaher Dienstleistungen.
 			</p>
 		</button>
+		-->
 
 		<button class="sponsorContainer" on:click={openText} id="li">
 			<img src={LittlerSvg} alt="Logo der Kanzlei Littler" />
@@ -94,9 +97,18 @@
 		</button>
 		<button class="sponsorContainer" on:click={openText} id="eh">
 			<img src={EHSvg} alt="Logo der Kanzlei E+H" />
-			<p class="hide"></p>
+			<p class="hide">
+				ist eine international tätige Wirtschaftsrechtskanzlei mit Standorten in Wien, Graz und
+				Brüssel. Unsere Expert:innen vereinen exzellente juristische Expertise mit profundem
+				wirtschaftlichen Verständnis und beraten Mandant:innen lösungsorientiert und pragmatisch.
+				Wir entwickeln innovative Strategien, die wirtschaftlichen Nutzen und langfristige
+				Perspektiven optimal verbinden. Unsere Teams sind international ausgebildet, divers und hoch
+				engagiert: so schaffen wir Freiraum für unsere Mandant:innen, sich auf ihr Kerngeschäft zu
+				konzentrieren. Mit diesem unternehmerischen Ansatz gehören wir zu den führenden Sozietäten
+				Österreichs.
+			</p>
 		</button>
-		<!-- <button class="sponsorContainer" on:click={openText} id="le">
+		<button class="sponsorContainer" on:click={openText} id="le">
 			<img src={LexisNexisSvg} alt="Logo des Unternehmens LexisNexis" />
 			<p class="hide">
 				<span>LexisNexis Österreich</span> ist ein führender Anbieter intelligenter Rechtsinformation.
@@ -107,7 +119,7 @@
 				wie Lexis SmartScan und Lexis ContractMaster, Lexis WhistleComplete, Closd, Caselex, Compliance
 				Praxis, Fachzeitschriften, Fachliteratur, Skripten und KODEX.
 			</p>
-		</button> -->
+		</button>
 	</div>
 </div>
 
@@ -177,13 +189,10 @@
 			order: 6 !important;
 		}
 		#li {
-			order: 3 !important;
-		}
-		#fa {
-			order: 5 !important;
-		}
-		#at {
 			order: 4 !important;
+		}
+		#le {
+			order: 3 !important;
 		}
 	}
 	@media (min-width: 90rem) {
@@ -206,10 +215,10 @@
 		#li {
 			order: 4 !important;
 		}
-		#fa {
-			order: 6 !important;
+		#le {
+			order: 7 !important;
 		}
-		#at {
+		#eh {
 			order: 5 !important;
 		}
 	}

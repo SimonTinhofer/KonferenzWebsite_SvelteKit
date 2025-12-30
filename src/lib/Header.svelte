@@ -117,8 +117,8 @@
 	<div class="navBar headerContentsContainer" bind:this={navBar}>
 		<a class="hyperLink" href="/">Home</a>
 		<a class="hyperLink" href="/agenda">Agenda</a>
-		<a class="inactiveLink">People</a>
-		<a class="inactiveLink">Sponsoring</a>
+		<a class="hyperLink" href="/people">People</a>
+		<a class="hyperLink" href="/sponsoring">Sponsoring</a>
 		<a class="inactiveLink">Slides</a>
 	</div>
 </header>
@@ -129,15 +129,9 @@
 	<a class="burgerRow" href="/agenda" on:click={toggleBurgerBool}
 		><span class="burgerHyperlink">Agenda</span></a
 	>
-	<a class="inactiveBurgerRow"
-		><span class="inactiveBurgerHyperlink">People</span></a
-	>
-	<a class="inactiveBurgerRow"
-		><span class="inactiveBurgerHyperlink">Sponsoring</span></a
-	>
-	<a class="inactiveBurgerRow"
-		><span class="inactiveBurgerHyperlink">Slides</span></a
-	>
+	<a class="burgerRow" href="/people"><span class="burgerHyperlink">People</span></a>
+	<a class="burgerRow" href="/sponsoring"><span class="burgerHyperlink">Sponsoring</span></a>
+	<a class="inactiveBurgerRow"><span class="inactiveBurgerHyperlink">Slides</span></a>
 </div>
 
 <style>
@@ -192,9 +186,9 @@
 		transform: translateY(-0.125rem);
 	}
 
-		#pcLogo{
-			display: none;
-		}
+	#pcLogo {
+		display: none;
+	}
 
 	@media (min-width: 70rem) {
 		.navBar {
@@ -206,10 +200,10 @@
 	}
 
 	@media (min-width: 43rem) {
-		#mobileLogo{
+		#mobileLogo {
 			display: none;
 		}
-		#pcLogo{
+		#pcLogo {
 			display: block;
 		}
 
@@ -217,7 +211,6 @@
 			width: 30% !important;
 		}
 		.wuLink {
-
 			width: 70% !important;
 		}
 	}

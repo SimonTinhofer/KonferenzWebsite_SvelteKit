@@ -43,7 +43,6 @@
 	import WendehorstWebp from '$lib/images/people/Wendehorst.webp';
 	import WendehorstJpg from '$lib/images/people/Wendehorst.jpg';
 
-
 	import ExternalLink from '$lib/ExternalLink.svelte';
 	import InternalLink from './InternalLink.svelte';
 </script>
@@ -340,6 +339,7 @@
 		margin: auto;
 	}
 	.sprecherContainer {
+		scroll-margin-top: var(--bigGap);
 		display: flex;
 		flex-direction: column;
 		background-color: white;
