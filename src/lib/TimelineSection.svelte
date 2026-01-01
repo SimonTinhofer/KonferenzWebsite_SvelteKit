@@ -59,7 +59,7 @@
 				<ellipse cx="7.5" cy="7.5" rx="7.5" ry="7.5" />
 			</svg>
 			<div class="eventTextContainer">
-				<div class="eventHeading">Ist die DSGVO fit für das KI-Zeitalter</div>
+				<div class="eventHeading">Ist die DSGVO fit für das KI-Zeitalter?</div>
 				<div class="eventSubtext">
 					<a href="/people#Wendehorst">Christiane Wendehorst<InternalLink /></a>
 				</div>
@@ -144,7 +144,8 @@
 					Podiumsdiskussion: Chancen und Herausforderungen des KI-Einsatzes in der Praxis
 				</div>
 				<div class="eventSubtext">
-					Tünde Fülöp, Rolf Gleissner, Sandra Konstatzky und Klaus M. Steinmaurer
+					Tünde Fülöp, <a href="/people#Gleißner">Rolf Gleißner<InternalLink /></a>,
+					Gutschlhofer-Emerich und Klaus M. Steinmaurer
 				</div>
 			</div>
 		</div>

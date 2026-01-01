@@ -129,8 +129,12 @@
 	<a class="burgerRow" href="/agenda" on:click={toggleBurgerBool}
 		><span class="burgerHyperlink">Agenda</span></a
 	>
-	<a class="burgerRow" href="/people"><span class="burgerHyperlink">People</span></a>
-	<a class="burgerRow" href="/sponsoring"><span class="burgerHyperlink">Sponsoring</span></a>
+	<a class="burgerRow" href="/people" on:click={toggleBurgerBool}
+		><span class="burgerHyperlink">People</span></a
+	>
+	<a class="burgerRow" href="/sponsoring" on:click={toggleBurgerBool}
+		><span class="burgerHyperlink">Sponsoring</span></a
+	>
 	<a class="inactiveBurgerRow"><span class="inactiveBurgerHyperlink">Slides</span></a>
 </div>
 
