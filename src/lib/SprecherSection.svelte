@@ -1,4 +1,6 @@
 <script>
+	// @ts-nocheck
+
 	import AuerMayerAvif from '$lib/images/people/Auer-Mayer.avif';
 	import AuerMayerWebp from '$lib/images/people/Auer-Mayer.webp';
 	import AuerMayerJpg from '$lib/images/people/Auer-Mayer.jpg';
@@ -30,6 +32,10 @@
 	import MüllerAvif from '$lib/images/people/Müller.avif';
 	import MüllerWebp from '$lib/images/people/Müller.webp';
 	import MüllerJpg from '$lib/images/people/Müller.jpg';
+
+	import SteinmaurerAvif from '$lib/images/people/Steinmaurer.avif';
+	import SteinmaurerWebp from '$lib/images/people/Steinmaurer.webp';
+	import SteinmaurerJpg from '$lib/images/people/Steinmaurer.jpg';
 
 	import TinhoferAvif from '$lib/images/people/Tinhofer.avif';
 	import TinhoferWebp from '$lib/images/people/Tinhofer.webp';
@@ -109,7 +115,7 @@
 				/>
 			</picture>
 			<div class="textContainer">
-				<h1>Martin Giesswein</h1>
+				<h1>Mag. Martin Giesswein</h1>
 				<p>
 					lehrt Digitalökonomie an der WU Executive Academy und ist AI Ethics Advisor des
 					europäischen Draigon Projekts. Der Preisträger des Awards "Digitaler Humanismus in der
@@ -142,6 +148,20 @@
 					decoding="async"
 				/>
 			</picture>
+		</div>
+
+		<div class="sprecherContainer" id="Gutschlhofer-Emerich">
+			<div class="textContainer">
+				<h1>Mag.a Birgit Gutschlhofer-Emerich</h1>
+				<p>
+					ist Juristin und seit 2005 in der
+					Gleichbehandlungsanwaltschaft in Wien tätig. Sie ist dort als Bereichsleiterin für das
+					Thema „Zugang zum Recht“ verantwortlich und als Anwältin für die Gleichbehandlung ohne
+					Unterschied des Geschlechts oder der ethnischen Zugehörigkeit in sonstigen Bereichen (Teil
+					III GlBG) tätig. Ihr Themenschwerpunkt liegt unter anderem auf Diskriminierung durch
+					Algorithmen beim Zugang zu Gütern und Dienstleistungen und in der Arbeitswelt.
+				</p>
+			</div>
 		</div>
 
 		<div class="sprecherContainer" id="Hacker">
@@ -202,7 +222,7 @@
 
 		<div class="sprecherContainer" id="Klambauer">
 			<div class="textContainer">
-				<h1>Günter Klambauer</h1>
+				<h1>Univ.-Prof. Dr. Günter Klambauer</h1>
 				<p>
 					ist Professor für "AI in Life Sciences" am LIT AI Lab und am Institut für Machine Learning
 					an der Johannes Kepler Universität Linz. Er war maßgeblich an der Einführung des Studiums
@@ -216,7 +236,7 @@
 				<source srcset={KlambauerWebp} type="image/webp" />
 				<img
 					src={KlambauerJpg}
-					alt="Portrait von Günter Klambauer"
+					alt="Portrait von Univ.-Prof. Dr. Günter Klambauer"
 					loading="lazy"
 					decoding="async"
 				/>
@@ -242,6 +262,32 @@
 				<img
 					src={MüllerJpg}
 					alt="Portrait von Dr. Madeleine Müller, BA, MU"
+					loading="lazy"
+					decoding="async"
+				/>
+			</picture>
+		</div>
+
+		<div class="sprecherContainer" id="Steinmaurer">
+			<div class="textContainer">
+				<h1>Dr. Klaus Steinmaurer</h1>
+				<p>
+					ist seit 01.Juli 2019 als Geschäftsführer der Rundfunk und Telekom Regulierungs-GmbH für
+					den Fachbereich Telekommunikation und Post verantwortlich. Vor seiner Bestellung war er
+					bis Mitte 2018 als Vice President International Regulatory Affairs Europe bei der
+					Deutschen Telekom AG für alle Konzernaktivitäten im Bereich Regulierung in Europa
+					verantwortlich. Herr Dr. Steinmaurer ist bereits seit fast 30 Jahren im
+					Telekommunikationssektor tätig. Dabei konnte er sich neben rechtlicher Expertise in
+					Regulierungsfragen auch ein breites ökonomisches und technisches Wissen verschaffen.
+					Nebenberuflich ist er auch seit vielen Jahren auf der Universität tätig.
+				</p>
+			</div>
+			<picture>
+				<source srcset={SteinmaurerAvif} type="image/avif" />
+				<source srcset={SteinmaurerWebp} type="image/webp" />
+				<img
+					src={SteinmaurerJpg}
+					alt="Portrait von Prof. Dr. Klaus Steinmaurer"
 					loading="lazy"
 					decoding="async"
 				/>
@@ -294,7 +340,7 @@
 
 		<div class="sprecherContainer" id="Wendehorst">
 			<div class="textContainer">
-				<h1>Christiane Wendehorst</h1>
+				<h1>Univ.-Prof. Dr. Dr. h.c. Christian Wendehorst, LL.M. (Cantab.)</h1>
 				<p>
 					ist seit 2008 Professorin für Zivilrecht an der Universität Wien und stellvertretende
 					Institutsvorständin des Instituts für Innovation und Digitalisierung im Recht. Sie ist
@@ -314,7 +360,7 @@
 				<source srcset={WendehorstWebp} type="image/webp" />
 				<img
 					src={WendehorstJpg}
-					alt="Portrait von Christiane Wendehorst"
+					alt="Portrait von Christiane Univ.-Prof. Dr. Dr. h.c. Christian Wendehorst, LL.M. (Cantab.)"
 					loading="lazy"
 					decoding="async"
 				/>

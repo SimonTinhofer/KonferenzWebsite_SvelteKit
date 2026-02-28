@@ -145,7 +145,7 @@
 				</div>
 				<div class="eventSubtext">
 					Tünde Fülöp, <a href="/people#Gleißner">Rolf Gleißner<InternalLink /></a>,
-					Gutschlhofer-Emerich und Klaus M. Steinmaurer
+					<a href="/people#Gutschlhofer-Emerich">Birgit Gutschlhofer-Emerich<InternalLink /></a> und <a href="/people#Steinmaurer">Klaus M. Steinmaurer<InternalLink /></a>
 				</div>
 			</div>
 		</div>
