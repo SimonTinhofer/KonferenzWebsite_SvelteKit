@@ -9,6 +9,10 @@
 	import FuchsWebp from '$lib/images/people/Fuchs.webp';
 	import FuchsJpg from '$lib/images/people/Fuchs.jpg';
 
+	import FülöpAvif from '$lib/images/people/Fülöp.avif';
+	import FülöpWebp from '$lib/images/people/Fülöp.webp';
+	import FülöpJpg from '$lib/images/people/Fülöp.jpg';
+
 	import GiessweinAvif from '$lib/images/people/Giesswein.avif';
 	import GiessweinWebp from '$lib/images/people/Giesswein.webp';
 	import GiessweinJpg from '$lib/images/people/Giesswein.jpg';
@@ -103,6 +107,30 @@
 			</picture>
 		</div>
 
+		<div class="sprecherContainer" id="Fülöp">
+			<div class="textContainer">
+				<h1>Mag.a Tünde Fülöp</h1>
+				<p>
+					ist Expertin für künstliche Intelligenz und Digitalrecht im Büro für digitale
+					Agenden der Arbeiterkammer Wien. Zuvor übte sie verschiedene Positionen im öffentlichen
+					Dienst aus, u.a. als Rechtsberaterin im BKA-Verfassungsdienst und in der
+					Parlamentsdirektion sowie als Referatsleiterin und stellvertretende Abteilungsleiterin im
+					BMEIA-Völkerrechtsbüro. Ihre Schwerpunkte sind digitale Rechte und KI-Governance sowie die
+					Herausforderungen von KI und Digitalisierung am Arbeitsplatz.
+				</p>
+			</div>
+			<picture>
+				<source srcset={FülöpAvif} type="image/avif" />
+				<source srcset={FülöpWebp} type="image/webp" />
+				<img
+					src={FülöpJpg}
+					alt="Portrait von Mag. (FH) Monika Fuchs MSc."
+					loading="lazy"
+					decoding="async"
+				/>
+			</picture>
+		</div>
+
 		<div class="sprecherContainer" id="Giesswein">
 			<picture>
 				<source srcset={GiessweinAvif} type="image/avif" />
@@ -154,12 +182,12 @@
 			<div class="textContainer">
 				<h1>Mag.a Birgit Gutschlhofer-Emerich</h1>
 				<p>
-					ist Juristin und seit 2005 in der
-					Gleichbehandlungsanwaltschaft in Wien tätig. Sie ist dort als Bereichsleiterin für das
-					Thema „Zugang zum Recht“ verantwortlich und als Anwältin für die Gleichbehandlung ohne
-					Unterschied des Geschlechts oder der ethnischen Zugehörigkeit in sonstigen Bereichen (Teil
-					III GlBG) tätig. Ihr Themenschwerpunkt liegt unter anderem auf Diskriminierung durch
-					Algorithmen beim Zugang zu Gütern und Dienstleistungen und in der Arbeitswelt.
+					ist Juristin und seit 2005 in der Gleichbehandlungsanwaltschaft in Wien tätig. Sie ist
+					dort als Bereichsleiterin für das Thema „Zugang zum Recht“ verantwortlich und als Anwältin
+					für die Gleichbehandlung ohne Unterschied des Geschlechts oder der ethnischen
+					Zugehörigkeit in sonstigen Bereichen (Teil III GlBG) tätig. Ihr Themenschwerpunkt liegt
+					unter anderem auf Diskriminierung durch Algorithmen beim Zugang zu Gütern und
+					Dienstleistungen und in der Arbeitswelt.
 				</p>
 			</div>
 		</div>

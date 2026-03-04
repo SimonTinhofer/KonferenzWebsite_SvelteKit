@@ -144,7 +144,7 @@
 					Podiumsdiskussion: Chancen und Herausforderungen des KI-Einsatzes in der Praxis
 				</div>
 				<div class="eventSubtext">
-					Tünde Fülöp, <a href="/people#Gleißner">Rolf Gleißner<InternalLink /></a>,
+					<a href="/people#Fülöp">Tünde Fülöp<InternalLink /></a>, <a href="/people#Gleißner">Rolf Gleißner<InternalLink /></a>,
 					<a href="/people#Gutschlhofer-Emerich">Birgit Gutschlhofer-Emerich<InternalLink /></a> und <a href="/people#Steinmaurer">Klaus M. Steinmaurer<InternalLink /></a>
 				</div>
 			</div>
